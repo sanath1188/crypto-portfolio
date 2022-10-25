@@ -13,6 +13,7 @@ An app that takes data in form of deposits/withdrawals and calculates the portfo
 ## Things to improve
 - Store the file metadata (file name and modified time) in the env somewhere. Read through the entire file again ONLY if either of the metadata change.
 - Can code the project in typescript to ensure better use of ENUMs and enabling data type integrity.
+- Add regex to ensure validity of values input (like date)
 
 ## How to run the application
 - Clone the project and checkout to the main branch
@@ -22,3 +23,4 @@ An app that takes data in form of deposits/withdrawals and calculates the portfo
 - Place the transaction.csv file in the root of the project and ensure the correct file name is given in the _config/default.json_ file
 - Run the command: nodemon index.js
 - You'll be prompted to enter the token name and date in sequence. Hit enter to skip
+- Use the YYYY-MM-DD format to enter the date
