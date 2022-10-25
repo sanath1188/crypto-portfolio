@@ -2,7 +2,7 @@
 An app that takes data in form of deposits/withdrawals and calculates the portfolio value
 
 ## Design decisions
-- All config level values are stored in the _config/default.json
+- All config level values are stored in the _config/default.json_ file
 - Used readline library to create a Q&A interface
 - Used event-stream library to be able to read the file quickly as it splits the file and reads the chunks in parallel without clocking the CPU
   - A function called _filterAndStoreToken_ keeps storing the transaction information as and when every line in the file is parsed
