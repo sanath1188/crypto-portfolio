@@ -24,3 +24,23 @@ An app that takes data in form of deposits/withdrawals and calculates the portfo
 - Run the command: nodemon index.js
 - You'll be prompted to enter the token name and date in sequence. Hit enter to skip
 - Use the YYYY-MM-DD format to enter the date
+- The output comes in the format: 
+  - {
+      USD: 20318.7,
+      token: 'BTC',
+      value: 1200425.1521679235,
+      portFolioValue: 24391078539.35439
+    }
+    {
+      USD: 1497.54,
+      token: 'ETH',
+      value: 901704.2831248266,
+      portFolioValue: 1350338232.1507528
+    }
+    {
+      USD: 0.4694,
+      token: 'XRP',
+      value: 903332.9813728357,
+      portFolioValue: 424024.50145640905
+    }
+    where portfolioValue in each object is the corresponding portfolio value for the token name.
