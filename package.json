@@ -1,0 +1,23 @@
+{
+  "name": "crypto-portfolio",
+  "version": "1.0.0",
+  "description": "An app that takes data in form of deposits/withdrawals and calculates the portfolio value",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanath1188/crypto-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanath1188/crypto-portfolio/issues"
+  },
+  "homepage": "https://github.com/sanath1188/crypto-portfolio#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "config": "^3.3.8",
+    "event-stream": "^4.0.1",
+    "fs": "0.0.1-security",
+    "readline": "^1.3.0"
+  }
+}

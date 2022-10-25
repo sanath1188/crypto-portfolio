@@ -1,0 +1,15 @@
+{
+  "cryptoFile": {
+    "path": "transactions.csv",
+    "columnIndex": {
+      "TIMESTAMP": 0,
+      "TYPE": 1,
+      "TOKEN": 2,
+      "AMOUNT": 3
+    }
+  },
+  "cryptoCompare": {
+    "url": "https://min-api.cryptocompare.com/data/price?",
+    "key": "a9053a9f74bbe08fca3d8b9ae31dd3748a381a0b2064f03572cb38edda4989a2" // store in github action secrets or something
+  }
+}
